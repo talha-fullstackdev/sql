@@ -25,3 +25,4 @@ create table customers (
 );
 insert into customers values(1,"talha Nawaz","03239825457","toheed colony abbottabad","male");
 select * from customers;
+/////
