@@ -1,5 +1,9 @@
 -- create database college;-- createing data base command
 -- create database if not exists college;--create data base if it is not exist
+drop database college; --this command will delete our data base
+drop database if exists college ;-- drop data base if it exists
+-- show tables;-- show tables
+-- show databases -- show all data bases
 -- create table employees (      --create table like this and insert values it is inserting column vise
 --     id int primary key, -- firts is filed name second is type and third is constraint
 --     name varchar(50),
@@ -27,3 +31,4 @@ create table customers (
 );
 insert into customers values(1,"talha Nawaz","03239825457","toheed colony abbottabad","male");
 select * from customers; -- select all data from customers
+show databases
