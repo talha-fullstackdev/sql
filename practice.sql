@@ -21,7 +21,7 @@ create table customers (
     customerName varchar(50),
     customerContact varchar(20),
     address varchar(100),
-    gender char(6) --// difference between varchar and cahr is that char reserver spaces in memeory and varcher not like if we use char(50) and the input is only 5 characters then rest of the space is going vacant but varchar take only space it need
+    gender char(6) --// difference between varchar and cahr is that char reserver spaces in memeory and varcher not like if we use char(50) and the input is only 5 characters then rest of the space is going vacant but varchar take only space it need , so if char is not used as it given the memory will waste
 );
 insert into customers values(1,"talha Nawaz","03239825457","toheed colony abbottabad","male");
 select * from customers;
