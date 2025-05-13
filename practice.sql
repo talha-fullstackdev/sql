@@ -1,3 +1,5 @@
+-- create database college;-- createing data base command
+-- create database if not exists college;--create data base if it is not exist
 -- create table employees (      --create table like this and insert values it is inserting column vise
 --     id int primary key, -- firts is filed name second is type and third is constraint
 --     name varchar(50),
