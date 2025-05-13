@@ -10,7 +10,7 @@ drop database if exists college ;-- drop data base if it exists
 --     age int not null
 -- );
 -- insert into employees values(1,'talha',25); --insert values like this into table 
--- insert into employees values(2,'hamza',24);
+-- insert into employees values(2,'hamza',24); // sequence matters while inserting data into tables 
 -- insert into employees (id, name, age) -- bu this we can insert multiples values at once in table
 -- values
 --   (3, 'ahmed', 21),
