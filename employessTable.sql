@@ -24,3 +24,8 @@ select * from employeesData where name = "talha nawaz";
 select * from employeesData where salary > 80000;
 select * from employeesData where salary < 80000;
 SELECT * FROM employeesData WHERE Name LIKE 'T%'; -- it give only those name which start with char T and % means followed by any word
+-- select * from employeesData where city like "a%";
+-- select * from employeesData where salary like "9%";
+select name from employeesData where name = "talha nawaz"-- only get name
+-- select name from employeesData; -- give all names from a table column
+select city from employeesData;
