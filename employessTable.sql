@@ -5,7 +5,9 @@ create table employeesData (
     salary int,
     city varchar(50),
     address varchar(100),
-    primary key (id)-- we can also make primary key like this
+    primary key (id),-- we can also make primary key like this
+ -- primary key(id,name), -- also made these two together primary key
+
 );
 insert into employeesData values(101,"Talha Nawaz","Male",90000,"Abbottabad","House #879 Toheed colony jhangi");
 insert into employeesData (id,name,gender,salary,city,address)
