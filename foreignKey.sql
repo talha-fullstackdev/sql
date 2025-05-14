@@ -27,6 +27,9 @@ VALUES
 (102, 'Bob Smith',"70000", 2),
 (103, 'Carol Williams',default, 1),
 (104, 'David Lee',default, 3);
+select employee_id , employee_name from employees; -- select two columns like this
+select employee_name,salary from employees;
 select * from employees where department_id =1;
 select * from departments;
 select * from employees where employee_name= "david lee"
+

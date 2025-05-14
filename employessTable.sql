@@ -23,6 +23,7 @@ select * from employeesData;
 select * from employeesData where gender = "female"; 
 select * from employeesData where gender = "male"; -- case sensitive also work
 select * from employeesData where id = 101 ;
+SELECT DISTINCT city from employeesData; --only give the unique city ignore duplicates enitries
 select * from employeesData where name = "talha nawaz";
 select * from employeesData where salary > 80000;
 select * from employeesData where salary < 80000;
