@@ -17,9 +17,10 @@ insert into employeesData (id,name,gender,salary,city,address)
     (105, "Bilal Ahmed", "Male", 95000, "Peshawar", "House #50 Phase 3 Hayatabad");
 
 select * from employeesData;
-select * from employeesData where gender = "female" 
-select * from employeesData where gender = "male" -- case sensitive also work
-select * from employeesData where id = 101 
-select * from employeesData where name = "talha nawaz"
-select * from employeesData where salary > 80000
-select * from employeesData where salary < 80000
+select * from employeesData where gender = "female"; 
+select * from employeesData where gender = "male"; -- case sensitive also work
+select * from employeesData where id = 101 ;
+select * from employeesData where name = "talha nawaz";
+select * from employeesData where salary > 80000;
+select * from employeesData where salary < 80000;
+SELECT * FROM employeesData WHERE Name LIKE 'T%'; -- it give only those name which start with char T and % means followed by any word
