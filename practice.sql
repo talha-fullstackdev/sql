@@ -32,3 +32,5 @@ create table customers (
 insert into customers values(1,"talha Nawaz","03239825457","toheed colony abbottabad","male");
 select * from customers; -- select all data from customers
 -- show databases -- show databases
+-- primary key column is only one in table and it will be unique and not null
+--one table primary key in another table is foreign key it will be multiples foreign key columns in a table and it will contains  empty and duplicate values
