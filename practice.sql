@@ -34,3 +34,14 @@ select * from customers; -- select all data from customers
 -- show databases -- show databases
 -- primary key column is only one in table and it will be unique and not null
 --one table primary key in another table is foreign key it will be multiples foreign key columns in a table and it will contains  empty and duplicate values
+-- ////////////////////////////////////////////////////////////////////////////
+-- ////////////////////////////////////////////////////////////////////////////
+-- unique constraint
+create table temp1 (
+    id int unique
+);
+insert into temp1 values(101);
+insert into temp1 values(103);
+insert into temp1 values(102);
+insert into temp1 values(103); -- this will give error because our table id column accept only unique values
+select * from temp1
