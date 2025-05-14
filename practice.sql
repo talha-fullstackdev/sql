@@ -20,8 +20,8 @@ drop database if exists college ;-- drop data base if it exists
 -- select * from employees where id=1; -- by this we can get single record from table by id
 -- select * from employees  -- this command show all data from data base
 
--- ///////////////////////////////////////////
--- ///////////////////////////////////////////
+-- ////////////////////////////////////////////
+-- ////////////////////////////////////////////
 create table customers (
     id int primary key,
     customerName varchar(50),
