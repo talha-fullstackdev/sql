@@ -12,6 +12,7 @@ INSERT INTO student (rollno, name, marks, grade, city) VALUES
 (104, 'dhruv', 96, 'A', 'Delhi'),
 (105, 'emanuel', 12, 'F', 'Delhi'),
 (106, 'farah', 82, 'B', 'Delhi');
+delete from student;-- this will delete all student data from table
 delete from student where rollno = 101; -- deleted the record of student with rollnum 101 
 delete from student where rollno in (101,103,105);  -- delete record of multiple students
 delete from student where city = "delhi";
