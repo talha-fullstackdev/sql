@@ -22,4 +22,5 @@ select city , marks , grade from student; -- get only these three column data fr
 update student set grade = "B" where marks between 70 and 80;  -- update the grade base on marks
 update student set grade = "A" where marks between 80 and 90; 
 update student set grade = "A+" where marks between 90 and 100; 
+update student set marks = marks + 1; -- increase one mark of every student
 select * from student; -- get all data from student table
