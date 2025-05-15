@@ -33,4 +33,12 @@ select *  from students order by city desc;-- give the reocrds base on city in d
 -- select * from students order by marks desc limit 3;  --this query give the records of students with higher marks (top 3)
 
 
-
+-- //////////////////////////////////////
+-- clause order in which we use them
+-- SELECT  --column
+-- FROM -- table name 
+-- WHERE --condition
+-- GROUP BY --column
+-- HAVING --condition
+-- ORDER BY --column
+-- this is the sequence of using clauses in sql
