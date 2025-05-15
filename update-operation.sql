@@ -13,3 +13,5 @@ INSERT INTO student (rollno, name, marks, grade, city) VALUES
 (105, 'emanuel', 12, 'F', 'Delhi'),
 (106, 'farah', 82, 'B', 'Delhi');
 update student set grade = "A+" where grade = "A"; -- update the grade from A to A+
+update student set name = "Talha Nawaz" where name = "dhruv"; -- update the name to talha nawaqz from dhruv
+select * from student where  rollno = 104;-- checking if the data is updated or not
