@@ -22,4 +22,7 @@ select name , marks from students where marks > 539; --get both name and marks
 -- ///////////////////////////////////////////////////////////////////////
 -- ///////////////////////////////////////////////////////////////////////
 -- now using subquery to perform this at once and dynamically
-select name ,marks from students where marks > (select avg(marks) from students); -- this is example of subquery as second query give us  single avg value and we use or compare it with first query
+select name , marks from students where marks > (select avg(marks) from students); -- this is example of subquery as second query give us  single avg value and we use or compare it with first query
+select name , rollnumber from students where rollnumber % 2 = 0;
+select name from students where rollnumber % 2 = 0;
+select max(marks) from students where city = "abbottabad"; -- find max marks base on city
