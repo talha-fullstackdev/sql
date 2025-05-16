@@ -1,0 +1,2 @@
+-- a view is a virtual table based on the result-set of an sql statement.
+-- a view always shows up to date data .the data base engine recreates the view ,every time a user queries it
