@@ -15,5 +15,5 @@ select * from student as s inner join courses as c on s.student_id = c.student_i
 select * from student left join courses on student.student_id = courses.student_id; -- left joiin (note which table we want full data we write that table first like here from student left join courses)
 select * from  student right join courses on courses.student_id = student.student_id; --right join
 select * from student left join courses on student.student_id=courses.student_id
-    union -- full join we use unior in left jpoin and right join to make it full join
+    union -- for full join we use union in left join and right join to make it full join
 select * from  student right join courses on courses.student_id=student.student_id; 
