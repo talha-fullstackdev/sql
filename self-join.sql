@@ -7,4 +7,4 @@ insert into employees (id,name,manager_id) values (101,"talha",104),(102,"hamza"
 select * from employees;
 select * from employees as a join employees as b on a.id = b.manager_id; -- use alias here 
 select a.name,b.name from employees as a join employees as b  on a.id = b.manager_id; -- get the names of the managers
-select a.name,b.name as manager from employees as a join employees as b  on a.id = b.manager_id; -- added manager  name here
+select a.name , b.name as manager from employees as a join employees as b  on a.id = b.manager_id; -- added manager  name here
