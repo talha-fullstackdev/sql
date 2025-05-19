@@ -6,8 +6,8 @@ create table employeesData (
     city varchar(50),
     address varchar(100),
     primary key (id),-- we can also make primary key like this
- -- primary key(id,name), -- also made these two together primary key
---    CONSTRAINT salary_check CHECK (salary>70000 and city ="lahore") -- apply check constraint here
+    primary key(id , name), -- also made these two together primary key
+    CONSTRAINT salary_check CHECK (salary > 70000 and city = "lahore") -- apply check constraint here
 
 );
 insert into employeesData values(101,"Talha Nawaz","Male",90000,"Abbottabad","House #879 Toheed colony jhangi");
