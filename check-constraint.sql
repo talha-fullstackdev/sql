@@ -11,10 +11,10 @@
 -- Multiple columns (table-level check)
 
 
-CREATE TABLE employees (
+CREATE TABLE employees(
     employee_id INT PRIMARY KEY,
     employee_name VARCHAR(100),
-    age INT CHECK (age >= 18 AND age <= 60),       -- Age check
-    salary INT CHECK (salary >= 15000),            -- Salary check
+    age INT CHECK (age >= 18 AND age <= 60),-- Age check (only allow those value which pass the condition)
+    salary INT CHECK (salary >= 15000),-- Salary check
     department_id INT
 );
