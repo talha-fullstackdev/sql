@@ -12,5 +12,5 @@ INSERT INTO student (rollno, name, marks, grade, city) VALUES
 (104, 'dhruv', 96, 'A', 'Delhi'),
 (105, 'emanuel', 12, 'F', 'Delhi'),
 (106, 'farah', 82, 'B', 'Delhi');
--- select count(name), city from student group by city having max(marks) > 90;
+select count(name), city from student group by city having max(marks) > 90;
 SELECT city, COUNT(rollno) FROM student WHERE marks > 90 GROUP BY city;
