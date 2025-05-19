@@ -15,4 +15,4 @@ INSERT INTO payments (customer_id, customer, mode, city) VALUES
 (108, 'Lucas Carter', 'Netbanking', 'Boston'),
 (109, 'Isabella Martinez', 'Netbanking', 'Nashville'),
 (110, 'Jackson Brooks', 'Credit Card', 'Boston');
-select mode,count(customer) from payments group by mode order by count(customer);
+select mode , count(customer) from payments group by mode order by count(customer);
