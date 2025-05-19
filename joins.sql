@@ -14,6 +14,6 @@ select * from student inner join courses on student.student_id = courses.student
 select * from student as s inner join courses as c on s.student_id = c.student_id; -- here we can also give a default name to tables like this this is called alias in sql
 select * from student left join courses on student.student_id = courses.student_id; -- left joiin (note which table we want full data we write that table first like here from student left join courses)
 select * from  student right join courses on courses.student_id = student.student_id; --right join
-select * from student left join courses on student.student_id=courses.student_id
+select * from student left join courses on student.student_id = courses.student_id
     union -- for full join we use union in left join and right join to make it full join
-select * from  student right join courses on courses.student_id=student.student_id; 
+select * from  student right join courses on courses.student_id = student.student_id; 
