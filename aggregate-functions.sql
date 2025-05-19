@@ -4,8 +4,9 @@ create table students(
     marks int,
     city varchar(50)
 );
-insert into students (rollnumber,name,marks,city)
-    values (1, 'Talha', 600, 'Abbottabad'),
+insert into students (rollnumber, name, marks, city)
+    values 
+    (1, 'Talha', 600, 'Abbottabad'),
     (2, 'Daud', 500, 'Lahore'),
     (3, 'Uzair', 450, 'Kasur'),
     (4, 'shameel', 620, 'lahore'),
@@ -18,9 +19,9 @@ insert into students (rollnumber,name,marks,city)
 select  max(marks) from students;-- give the max marks from student (only give single value)
 select  min(marks) from students;-- give the min marks from student (only give single value)
 select count(name) from students; -- give how many students or records present
-select city,count(name) from students group by city;-- tell how man students are from these cities
-select city,name , count(rollnumber) from students group by city,name; -- this query give count of students from a city
+select city, count(name) from students group by city;-- tell how man students are from these cities
+select city, name , count(rollnumber) from students group by city, name; -- this query give count of students from a city
 select city, avg(marks) from students group by city; -- give avrage max city vise
-select city ,max(marks) from students group by city;-- give highest marks from each city 
+select city, max(marks) from students group by city;-- give highest marks from each city 
 
 
