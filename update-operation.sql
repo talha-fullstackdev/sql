@@ -17,7 +17,7 @@ update student set name = "Talha Nawaz" where name = "dhruv"; -- update the name
 select * from student where  rollno = 104;-- checking if the data is updated or not
 update student set grade = "A+" where city = "delhi"; -- update the grade by city name
 select city , grade from student; -- checking grade and city and look it it is updated or not
-update student set marks = 70 where rollno = 105; -- update the marks of the students by its roll number
+update student set marks = 70 where rollno = 105; -- update the marks of the students by their roll number
 select city , marks , grade from student; -- get only these three column data from student table
 update student set grade = "B" where marks between 70 and 80;  -- update the grade base on marks
 update student set grade = "A" where marks between 80 and 90; 
